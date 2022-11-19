@@ -15,8 +15,12 @@ change plugin settings for src/eslintrc.js
  plugins: ["jest", "react"],
  extends: ["plugin:jest/recommended","eslint:recommended","plugin:react/recommended",
 
+--ENZYME--
 Enzyme definition: 
 Airbnb’s Enzyme has become the most popular library for testing React components. 
 Enzyme is especially good at rendering a single component in isolation, a technique known as “shallow rendering,” 
 and letting you see how changes in the component’s props and state cause its render tree to change.
 
+install enzynme: npm install --save-dev enzyme enzyme enzyme-adapter-react
+
+// You’ll need to install Enzyme, plus the “adapter” that lets it plug into the version of React you’re using
